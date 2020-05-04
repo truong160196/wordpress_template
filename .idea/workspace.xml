@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c91653c-4edf-4574-a123-bd2ac1e0a569" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-884611981">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="14" />
+          <entry key="htaccess" value="5" />
+          <entry key="js" value="3" />
+          <entry key="json" value="4" />
+          <entry key="mo" value="12" />
+          <entry key="php" value="135" />
+          <entry key="png" value="1" />
+          <entry key="po" value="12" />
+          <entry key="txt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="14" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Locale" value="12" />
+          <entry key="PHP" value="135" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="htaccess" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="535" />
+          <entry key="htaccess" value="10" />
+          <entry key="html" value="9" />
+          <entry key="php" value="3303" />
+          <entry key="po" value="158" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="535" />
+          <entry key="HTML" value="9" />
+          <entry key="Locale" value="158" />
+          <entry key="PHP" value="3302" />
+          <entry key="SQL" value="1" />
+          <entry key="htaccess" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/css/plugin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/create-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/left-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="90" column="9" lean-forward="true" selection-end-line="90" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#form#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/right-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="122" column="17" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add_submenu_page</find>
+      <find>load_my_plugin_scripts</find>
+      <find>submit_button</find>
+      <find>my_plugin_version</find>
+      <find>render_text_included</find>
+      <find>upgrade-schema</find>
+      <find>max_index_length</find>
+      <find>dbDelta</find>
+      <find>register_activation_hook</find>
+      <find>plugin_activation</find>
+      <find>Akismet_Admin</find>
+      <find>Akismet Anti-Spam</find>
+      <find>load_menu</find>
+      <find>render_page</find>
+      <find>translate</find>
+      <find>Thành viên</find>
+      <find>plugins_loaded</find>
+      <find>akismet</find>
+      <find>NONCE</find>
+      <find>myplugin_init</find>
+      <find>admin_init</find>
+      <find>myplugin_load_textdomain</find>
+      <find>$capability</find>
+      <find>WP_DEBUG</find>
+      <find>WP_DEBUG_DISPLAY</find>
+      <find>Akismet_REST_API</find>
+      <find>akismet/</find>
+      <find>enqueue_style</find>
+      <find>t5_demo_js</find>
+      <find>list_globals</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Plugin_Admin</replace>
+      <replace>render_page_all_product</replace>
+      <replace>Plugin_REST_API</replace>
+      <replace>product/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/header.php" />
+        <option value="$PROJECT_DIR$/wp-admin/top-level.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/admin-menu-demo.php" />
+        <option value="$PROJECT_DIR$/wp-admin/my-plugin/css/plugin.css" />
+        <option value="$PROJECT_DIR$/wp-admin/menu-page-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/index.html" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/menu-page-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/api/function.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/create.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/update.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/activation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/my_themes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/update.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/upgrade.php" />
+        <option value="$PROJECT_DIR$/my-database.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/pluginfile.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/activation.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/plugin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/vi.mo" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/vi.po" />
+        <option value="$PROJECT_DIR$/wp-content/languages/vi.po" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/my-plugin-vi_VI.po" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/my-plugin-vi_VI.mo" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/my-plugin-vi.po" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/.htaccess" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-translate.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/filter-product.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/myplugin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-rest-api.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/table-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/list-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/database.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/left-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-admin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/create-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/right-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/my-plugin/css/plugin.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/wp-content/themes/twentynineteen/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/twentytwenty/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1908" />
+    <option name="y" value="41" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="akismet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="my-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/wordpress/wp-content/plugins/my-plugin/views/create-product.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\views\create" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\js" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\views" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\languages\plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\views\create" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\views\list" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin\views" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\my-plugin" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-admin\includes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c91653c-4edf-4574-a123-bd2ac1e0a569" name="Default Changelist" comment="" />
+      <created>1587027885134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587027885134</updated>
+      <workItem from="1587027886444" duration="4736000" />
+      <workItem from="1587363806691" duration="15132000" />
+      <workItem from="1587453029305" duration="10442000" />
+      <workItem from="1587623257505" duration="6038000" />
+      <workItem from="1588140467506" duration="9751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46099000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/admin-en_GB.mo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/akismet-vi.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/hello-dolly-vi.po">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/my-plugin-vi_VI.po" />
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/vi.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/vi-0ce75ad2f775d1cac9696967d484808c.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/my-plugin-vi.mo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/languages/my-plugin-vi.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/admin-vi.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/akismet-vi.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/my-plugin-vi.mo" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="83" column="78" selection-start-line="83" selection-start-column="78" selection-end-line="83" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-translate.php" />
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1464" column="30" selection-start-line="1464" selection-start-column="19" selection-end-line="1464" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-rest-api.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/media.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="1343" column="44" selection-start-line="1343" selection-start-column="27" selection-end-line="1343" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/archive.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1027" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/template-parts/content/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/template-parts/post/author-bio.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="53" selection-start-line="53" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-rest-api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/myplugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="8913" column="37" lean-forward="true" selection-start-line="8913" selection-start-column="37" selection-end-line="8913" selection-end-column="37" />
+          <folding>
+            <element signature="e#80349#80549#2" expanded="true" />
+            <element signature="e#80783#80932#2" expanded="true" />
+            <element signature="e#81505#81651#2" expanded="true" />
+            <element signature="e#82025#82191#1" expanded="true" />
+            <element signature="e#96375#96618#2" expanded="true" />
+            <element signature="e#97654#97903#2" expanded="true" />
+            <element signature="e#131189#131379#2" expanded="true" />
+            <element signature="e#131436#131626#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/list/filter-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/plugin-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/list/list-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/list/table-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/left-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="90" column="9" lean-forward="true" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/create-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/views/create/right-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-plugin/css/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

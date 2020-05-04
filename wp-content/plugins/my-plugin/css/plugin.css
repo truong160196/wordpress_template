@@ -1,0 +1,41 @@
+.select-full {
+    max-width: 100% !important;
+}
+
+.textarea-full {
+    border: 1px solid #7e8993 !important;
+}
+
+.product-created {
+    position: relative;
+}
+
+#product-created .header-form {
+    position: relative;
+    width: 100%;
+    min-height: 45px;
+}
+#product-created .header-form .button-group-right {
+    float: right;
+}
+
+#product-created .left-form-product {
+    margin: 15px 0;
+    padding: 15px 25px;
+}
+
+#product-created .right-form-product {
+    margin: 15px 0;
+    padding: 15px 25px;
+    background: #dddddd;
+    height: 100%;
+}
+
+#product-created .right-form-product h2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+}
