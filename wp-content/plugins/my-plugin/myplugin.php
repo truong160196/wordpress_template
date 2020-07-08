@@ -58,3 +58,9 @@ function myplugin_load_textdomain() {
 
     load_plugin_textdomain( 'my-plugin', false, $plugin_dir);
 }
+
+//allow redirection, even if my theme starts to send output to the browser
+add_action('init', 'do_output_buffer');
+function do_output_buffer() {
+    ob_start();
+}

@@ -37,11 +37,11 @@
         <div class="col-sm-12 col-lg-6">
             <div class="form-group">
                 <label for="delivery_method">Delivery Method</label>
-                <select class="form-control select-full" id="delivery_method" name="delivery_method">
-                    <option>Minutes</option>
-                    <option>Hours</option>
-                    <option>Days</option>
-                    <option>Week</option>
+                <select class="form-control select-full" id="seller_send_in_type" name="seller_send_in_type">
+                    <option value="minutes">Minutes</option>
+                    <option value="hours">Hours</option>
+                    <option value="days">Days</option>
+                    <option value="weeks">Weeks</option>
                 </select>
             </div>
         </div>
@@ -59,8 +59,8 @@
             <div class="form-group">
                 <label for="returns">Returns</label>
                 <select class="form-control select-full" id="returns" name="returns">
-                    <option>No return</option>
-                    <option>Return</option>
+                    <option value="no return">No return</option>
+                    <option value="return">Return</option>
                 </select>
             </div>
         </div>

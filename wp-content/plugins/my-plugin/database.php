@@ -40,6 +40,7 @@ function jal_install() {
 		price  numeric (12, 5) NULL,
 		fee  numeric (12, 5) NULL,
 		qty  numeric (12, 2) NULL,
+		status varchar(20) DEFAULT 0 NOT NULL,
 		PRIMARY KEY  (id)
 	) $charset_collate;";
 

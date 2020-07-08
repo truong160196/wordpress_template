@@ -1,9 +1,12 @@
 <?php
+require_once( 'plugin-service.php' );
 
 class Plugin_Admin {
 	const NONCE = 'plugin-update-key';
 
 	private static $initiated = false;
+
+    public static $products;
 
 	public static function init() {
 		if ( ! self::$initiated ) {
@@ -25,45 +28,41 @@ class Plugin_Admin {
 	}
 
 	public static function load_menu() {
-        // $main is now a slug named "toplevel_page_t5-demo"
-        // built with get_plugin_page_hookname( $menu_slug, '' )
         $main = add_menu_page(
-            'Product',                         // page title
-            'Product',                         // menu title
-            // Change the capability to make the pages visible for other users.
-            // See http://codex.wordpress.org/Roles_and_Capabilities
-            false,                  // capability
-            'product',                         // menu slug
-            array ( __CLASS__, 'render_page_all_product' ) // callback function
+            'Product',
+            'Product',
+            false,
+            'product',
+            array ( __CLASS__, 'render_page_all_product' )
         );
 
-        // $sub is now a slug named "t5-demo_page_t5-demo-sub"
-        // built with get_plugin_page_hookname( $menu_slug, $parent_slug)
-        $sub = add_submenu_page(
-            'product',                         // parent slug
-            __('All product', 'my-plugin'),                      // page title
-            __('All product', 'my-plugin'),              // menu title
-            'manage_options',                   // capability
-            'list-product',                     // menu slug
-            array ( __CLASS__, 'render_page_all_product' ) // callback function, same as above
+        $list_product = add_submenu_page(
+            'product',
+            __('All product', 'my-plugin'),
+            __('All product', 'my-plugin'),
+            'manage_options',
+            'list-product',
+            array ( __CLASS__, 'render_page_all_product' )
         );
 
-
-        // $text is now a slug named "t5-demo_page_t5-text-included"
-        // built with get_plugin_page_hookname( $menu_slug, $parent_slug)
-        $sub_menu = add_submenu_page(
-            'product',                         // parent slug
-            'Create Product',                     // page title
-            'Create Product',                     // menu title
-            'manage_options',                  // capability
-            'create-product',                     // menu slug
-            array ( __CLASS__, 'render_page_create_product' ) // callback function, same as above
+        $create_product = add_submenu_page(
+            'product',
+            'Product',
+            'Create Product',
+            'manage_options',
+            'products',
+            array ( __CLASS__, 'render_page_create_product' )
         );
 
+        $lst_router = array (
+            $main,
+            $list_product,
+            $create_product,
+        );
         /* See http://wordpress.stackexchange.com/a/49994/73 for the difference
          * to "'admin_enqueue_scripts', $hook_suffix"
          */
-        foreach ( array ( $main, $sub, $sub_menu ) as $slug )
+        foreach ($lst_router as $slug )
         {
             // make sure the style callback is used on our page only
             add_action(
@@ -75,8 +74,26 @@ class Plugin_Admin {
                 "admin_print_scripts-$slug",
                 array ( __CLASS__, 'enqueue_script' )
             );
+            //
+            add_action( "load-$slug", [ __CLASS__, 'screen_option' ] );
+
         }
 	}
+
+    public static function screen_option() {
+
+        $option = 'per_page';
+        $args   = [
+            'label'   => 'Customers',
+            'default' => 5,
+            'option'  => 'customers_per_page'
+        ];
+
+        add_screen_option( $option, $args );
+
+        self::$products = new Plugin_Service();
+    }
+
     /**
      * Print page output.
      *
@@ -86,12 +103,11 @@ class Plugin_Admin {
      */
     public static function render_page_all_product()
     {
-        $file = plugin_dir_path(__FILE__ ) . 'views/list/list-product.php';
+        $file = plugin_dir_path(__FILE__ ) . 'views/list/index.php';
 
         if ( file_exists( $file ) )
             require $file;
     }
-
 
     /**
      * Print included HTML file.
@@ -101,7 +117,7 @@ class Plugin_Admin {
      */
     public static function render_page_create_product()
     {
-        $file = plugin_dir_path(__FILE__ ) . 'views/create/create-product.php';
+        $file = plugin_dir_path(__FILE__ ) . 'views/create/index.php';
 
         if ( file_exists( $file ) )
             require $file;
@@ -122,10 +138,18 @@ class Plugin_Admin {
 
         wp_enqueue_style( 'plugin_css' );
 
+        // add css notification
+        wp_register_style(
+            'notification_css',
+            plugins_url( 'my-plugin/css/notification.css' )
+        );
+
+        wp_enqueue_style( 'notification_css' );
+
         // add file css style.css
         wp_register_style(
             'bootstrap_css',
-            plugins_url( 'my-plugin/css/style.css' )
+            plugins_url( 'my-plugin/css/bootstrap.css' )
         );
 
         wp_enqueue_style( 'bootstrap_css' );
@@ -139,12 +163,39 @@ class Plugin_Admin {
     public static function enqueue_script()
     {
         wp_register_script(
-            't5_demo_js',
+            'jquery_js',
+            plugins_url( 'my-plugin/js/jquery.js' ),
+            array(),
+            FALSE,
+            TRUE
+        );
+        wp_enqueue_script( 'jquery_js' );
+
+        wp_register_script(
+            'bootstrap_notification',
+            plugins_url( 'my-plugin/js/bootstrap-notify.js' ),
+            array(),
+            FALSE,
+            TRUE
+        );
+        wp_enqueue_script( 'bootstrap_notification' );
+
+        wp_register_script(
+            'plugin_js',
             plugins_url( 'my-plugin/js/plugin.js' ),
             array(),
             FALSE,
             TRUE
         );
-        wp_enqueue_script( 't5_demo_js' );
+        wp_enqueue_script( 'plugin_js' );
+
+        wp_register_script(
+            'main_js',
+            plugins_url( 'my-plugin/js/main.js' ),
+            array(),
+            FALSE,
+            TRUE
+        );
+        wp_enqueue_script( 'main_js' );
     }
 }
