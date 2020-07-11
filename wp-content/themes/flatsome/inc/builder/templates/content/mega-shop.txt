@@ -120,11 +120,11 @@
 [/col_grid]
 
 [/ux_banner_grid]
-[title text="Our BestSellers" size="undefined" link_text="Browse All" link="#"]
+[title text="Sản phẩm bán chạy" size="undefined" link_text="Browse All" link="#"]
 
 [ux_products columns="5"  products="6" orderby="sales" image_height="106%" text_bg="rgb(255, 255, 255)" text_padding="20px 20px 20px 20px"]
 
-[title text="Latest on Sale" size="undefined" link_text="Browse all" link="#"]
+[title text="Sản phẩm mới" size="undefined" link_text="Browse all" link="#"]
 
 [ux_products columns="5" orderby="sales" show="onsale" image_height="106%" text_bg="rgb(255, 255, 255)"]
 
