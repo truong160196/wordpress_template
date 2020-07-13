@@ -6,7 +6,7 @@
 
 [featured_box img="8687" img_width="20" pos="left" margin="px px px px"]
 
-<p><span style="font-size: 90%;"><strong>Free Delivery</strong> World Wide* <a href="#">Learn more</a></span></p>
+<p><span style="font-size: 90%;"><strong>Giao Hàng Miễn Phí</strong> World Wide* <a href="#">Learn more</a></span></p>
 
 [/featured_box]
 

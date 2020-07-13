@@ -1,0 +1,40 @@
+2020-07-11T09:12:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\template.php on line 662
+
+2020-07-11T13:40:20+00:00 CRITICAL Out of memory (allocated 44040192) (tried to allocate 135168 bytes) in C:\xampp\htdocs\wordpress\wp-includes\pomo\streams.php on line 215
+
+2020-07-11T13:40:21+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 594
+
+2020-07-11T13:40:21+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\yith-woocommerce-wishlist\includes\class.yith-wcwl-wishlist.php on line 623
+
+2020-07-11T14:12:54+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 388
+
+2020-07-11T15:14:20+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 995328 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php on line 229
+
+2020-07-11T15:24:05+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 594
+
+2020-07-11T21:39:58+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 3670016 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php on line 277
+
+2020-07-11T21:43:12+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 388
+
+2020-07-11T21:43:12+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 388
+
+2020-07-11T21:54:48+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 995328 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php on line 229
+
+2020-07-11T21:54:59+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 3670016 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php on line 277
+
+2020-07-11T21:55:33+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 388
+
+2020-07-11T21:55:40+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 995328 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php on line 229
+
+2020-07-11T21:55:49+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 3670016 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php on line 277
+
+2020-07-11T21:56:10+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Customers\Controller.php on line 353
+
+2020-07-11T21:56:39+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 388
+
+2020-07-11T21:57:51+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 987136 bytes) in C:\xampp\htdocs\wordpress\wp-includes\class.wp-scripts.php on line 301
+
+2020-07-11T21:57:54+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 548864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php on line 233
+
+2020-07-11T21:58:00+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 458752 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\i18n\states.php on line 913
+
